@@ -1,0 +1,32 @@
+{
+  "name": "leonard-yung/baidu_ai_sdk",
+  "description": "百度ai SDK",
+  "keywords": [
+    "ai", "baidu"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leonard-yung",
+      "email": "leonard-yung@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "baidu_ai_sdk\\": "src/"
+    },
+    "files": [
+      "src/Kernel/Support/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "baidu_ai_sdk\\Tests\\": "tests/"
+    }
+  }
+}
